@@ -16,8 +16,8 @@ namespace Geocoding.Microsoft
 	/// </remarks>
 	public class BingMapsGeocoder : IGeocoder
 	{
-		const string UNFORMATTED_QUERY = "http://dev.virtualearth.net/REST/v1/Locations/{0}?key={1}";
-		const string FORMATTED_QUERY = "http://dev.virtualearth.net/REST/v1/Locations?{0}&key={1}";
+		const string UNFORMATTED_QUERY = "https://dev.virtualearth.net/REST/v1/Locations/{0}?key={1}";
+		const string FORMATTED_QUERY = "https://dev.virtualearth.net/REST/v1/Locations?{0}&key={1}";
 		const string QUERY = "q={0}";
 		const string COUNTRY = "countryRegion={0}";
 		const string ADMIN = "adminDistrict={0}";
